@@ -44,7 +44,7 @@ declare var MDwikiEnableDebug: any;
                 parser.href = href;
                 if (window.location.hostname != parser.hostname) {
                     // fall to default
-                    href = 'index.md';
+                    href = 'README.md';
                 }
 
                 href = decodeURIComponent(href);
